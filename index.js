@@ -16,7 +16,7 @@ const app = express();
 // base de datos
 dbConnection();
 
-//CORS
+//CORS -.
 app.use(cors());
 
 //Directorio público
