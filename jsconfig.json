@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "checkJs": true,
+    "strict": false,
+    "baseUrl": "./",
+    "paths": {
+      "@controllers/*": ["controllers/*"],
+      "@database/*": ["database/*"],
+      "@helpers/*": ["helpers/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@models/*": ["models/*"],
+      "@routes/*": ["routes/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
