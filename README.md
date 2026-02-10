@@ -21,4 +21,4 @@
    "start": "node index.js"
    }
 8. es para evitar volver a llamar el `index.js`y con solo `npm run dev` se ejecute
-9. sólo para desarrollo se ocupa el nodemon
+9. sólo para desarrollo se ocupa el `nodemon`
